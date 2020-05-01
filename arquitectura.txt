@@ -1,0 +1,20 @@
+actividades*.log: logs de distintos escenarios
+
+actividades.db3: base sqlite3 generada por export.php usando actividades*.log
+
+SimpleFSM.java: código fuente de POC para un evento a la vez
+
+FSM.java: código fuente para múltiples eventos solapados
+
+FSM.fail.java: ejemplo de optimización prematura que conduce al fracaso prematuro
+
+export.php: conversor .log a .db3
+
+build.sh: compilación de SimpleFSM y FSM
+
+consultas.sql: consultas sobre sqlite
+
+test.sh: testeo funcional con shunit2
+
+run.sh: ejecutor
+

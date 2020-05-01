@@ -1,0 +1,16 @@
+#DATE      TIME  TYPE SRC          DST  DATA TAG
+#
+#
+2020-01-01 00:51 scan externa_aaaa interna_scan abcd ataque01
+2020-01-01 02:03 conn externa_aaaa interna_conn 1234 ataque02
+2020-01-01 04:07 copy interna_aaaa interna_bbbb 1234 ataque03
+2020-01-01 05:11 copy interna_bbbb externa_copy 1234 ataque04
+#
+#
+#2020-01-01 00:57 scan externa_aaaa2 interna_scan2 abcd2 ataque11
+#2020-01-01 02:13 conn externa_aaaa2 interna_conn2 12342 ataque12
+#2020-01-01 04:27 copy interna_aaaa2 interna_bbbb2 12342 ataque13
+#2020-01-01 05:19 copy interna_bbbb2 externa_copy2 12342 ataque14
+#
+#
+#2020-01-01 05:14 copy interna_bbbb3 externa_copy3 12343 no_ataqueok, 
